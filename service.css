@@ -1,0 +1,49 @@
+
+.services-content {display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    align-items: center;
+    height: 100dvh;
+}
+.left {
+    flex: 1;
+    
+}
+.left h1 {
+    font-size: 3em;
+    color: black;
+}
+.left span {
+    color: gray;
+}
+.left button {
+    background-color: green;
+ margin: 15px 0; 
+ color: white;
+ padding: 10px 15px;
+ border: none;
+ border-radius: 30px;
+ cursor: pointer;  
+}
+.service-cards {
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    width: 400px;
+}
+.service-cards .card {
+padding: 10px ;
+border-radius: 10px;
+border: 1px solid lightgray;
+}
+.right {
+    flex: 1;
+}
+.right img {
+    width: 500px;
+    height:auto;
+    border-radius: 20px;
+}

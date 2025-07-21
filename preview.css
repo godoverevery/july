@@ -1,0 +1,52 @@
+.partners {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px;
+    width: 100%;
+}
+.part-content {   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;    
+}
+.right-side {
+    flex: 1;
+    font-size: 15px;
+    padding: 40px;
+    color: gray;
+
+}
+.left-side {
+    flex: 1;
+    font-size: 2em;
+    padding: 40px;
+}
+.left-side span {
+    color:gray;
+}
+.brands {
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+    gap: px;
+    margin-top: 15px;
+}
+.brands div {
+display: flex;
+justify-content: center;
+align-items: center;
+    background-color: #F2F4F3;
+    border-radius: 50%;
+    border: 1px solid #F2F4F3;
+    width: 150px;
+    height: 150px;
+    font-size: .8em;
+    font-weight: 600;
+    padding: 15px 25px;  
+}
+.brands div:first-child {
+color: green;
+background-color: white;
+}

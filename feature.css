@@ -1,0 +1,27 @@
+.features {
+    background-color: #F2F4F3;
+    min-height: 70dvh;
+}
+.feature-text {
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 350;
+    padding: 60px 20px;
+}
+.feature-text span {
+    color:gray;
+}
+.features .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(2, auto);
+  
+  margin: 40px;
+  padding: 30px 100px;
+}
+
+.grid-svg {
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}

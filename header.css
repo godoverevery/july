@@ -1,0 +1,53 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container {
+    background-color: white;
+
+}
+
+    
+
+body {
+    background-color:lightgray;
+    line-height: 1.6;
+    width: 100%;
+    padding: 2rem;
+}
+.navbar {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:  1rem 2rem .5rem ;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    
+}
+.navbar li a {
+    font-weight: 500;
+    font-size: .9em;
+    color: #2E2E2E;
+}
+.nav-buttons .login {
+    border-radius: 10px;
+    border: 1px solid #EFEFEF;
+    background-color: transparent;
+    padding: .5rem .6rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-buttons .Get {
+    background-color:#01D37E;
+    border-radius: 10px;
+    cursor: pointer;
+    padding:.5rem .6rem ;
+    border: 1px solid #01D37E;
+}
